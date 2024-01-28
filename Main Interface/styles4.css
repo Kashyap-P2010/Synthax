@@ -1,0 +1,67 @@
+ecoEarth {
+    height: 60px;
+    width: 60px;
+}
+.title {
+    display: inline;
+    margin-top: 0px;
+    padding-top: 0px;
+    background: linear-gradient(to right, #6ccc6c, #60dd2b );
+    font-family: 'Black Ops One';
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.top {
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: #506d46f9;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+.mid {
+    background-color: #4b4537;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.image {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    
+}
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #163020;
+
+}
+
+h2 {
+    text-align: center;
+    background  :#42ce42;
+    font-family: 'Black Ops One';
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
